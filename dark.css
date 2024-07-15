@@ -1,0 +1,28 @@
+/* Default button styles */
+.dark-mode-toggle {
+    position: fixed; /* Fixed position to keep it on the right side */
+    top: 20px; /* Adjust top position as needed */
+    right: 20px; /* Adjust right position as needed */
+    background-color: #555; /* Dark background for button */
+    color: #fff; /* Text color for button */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .dark-mode-toggle:hover {
+    background-color: #666; /* Darker background on hover */
+  }
+  
+  /* Dark mode styles */
+  .dark-mode {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+  }
+  
+  /* Adjust other styles as needed */
+  .container {
+    margin-right: 60px; /* Ensure content doesn't overlap with button */
+  }
+  

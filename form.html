@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <title>IGNITE07</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container main">
+            <div class="row">
+                <div class="col-md-6 side-image">
+                    <!-------Image-------->
+                    <img src="images/white.png" alt="">
+                    <div class="text">
+                        <p> <i></i></p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 right">
+                     <div class="input-box">
+                        <header>Online Voter Registration Portal</header>
+                        <div class="input-field">
+                            <input type="text" class="input" id="email" required autocomplete="off">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="FullName" class="input" id="fullname" required>
+                            <label for="FullName">Full Name</label>
+                        </div>
+                        <form action="upload.php" method="post" enctype="multipart/form-data">
+                            <label for="fileToUpload">Aadhaar Card(pdf less than 2mb):</label>
+                            <input type="file" name="fileToUpload" id="fileToUpload">
+                          </form>
+                        
+                        <div class="input-field">
+                            <input type="FullName" class="input" id="fullname" required>
+                            <label for="FullName">Father's/Husband's Name</label>
+                        </div>
+
+                    <!--   <div class="input-field">
+                            <input type="FullName" class="input" id="fullname" required>
+                            <label for="FullName">Gender</label>
+                        </div> -->
+
+                        <div class="input-field">
+                            <input type="FullName" class="input" id="fullname" required>
+                            <label for="FullName">Permanent Address:</label>
+                        </div>
+
+                        <div class="input-field">
+                            <input type="FullName" class="input" id="fullname" required>
+                            <label for="FullName">Mobile Number</label>
+                        </div>
+                       <!-- <div class="input-field">
+                            <input type="password" class="input" id="password" required>
+                            <label for="password">State</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="input" id="password" required>
+                            <label for="password">Block</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="input" id="password" required>
+                            <label for="password">Pincode</label>
+                        </div>-->
+                        
+                        <div class="input-field">
+                            <a href="scratchcard.html">
+                            <input type="submit" class="submit" value="Register">
+                    </a>
+                        </div>
+                
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
